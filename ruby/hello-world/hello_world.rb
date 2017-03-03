@@ -1,9 +1,5 @@
 class HelloWorld
-  def self.hello(name = '')
-    if name.empty?
-      'Hello, World!'
-    else
-      "Hello, #{name}!"
-    end
+  def self.hello(name = 'World')
+    "Hello, #{name}!"
   end
 end
